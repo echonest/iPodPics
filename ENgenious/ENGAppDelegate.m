@@ -15,6 +15,7 @@
 {
     // Override point for customization after application launch.
     [ENAPIRequest setApiKey:@"EHY4JJEGIOFA1RCJP"];
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
 
     return YES;
 }
